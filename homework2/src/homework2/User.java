@@ -1,6 +1,31 @@
-package homework2;
+ package homework2;
 
 public class User {
-	int id;
+	 private int id;
+	 private String status;
+	 
+	public User() {
+		
+	}
+
+	public User(int id, String status) {
+		this.id = id;
+		this.status = status;
+	}
 	
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
 }
