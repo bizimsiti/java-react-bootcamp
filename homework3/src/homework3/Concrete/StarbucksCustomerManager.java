@@ -17,7 +17,7 @@ public class StarbucksCustomerManager extends BaseCustomerManager {
 	@Override
 	public void save(Customer customer) {
 		if(customerCheckService.checkIfRealPerson(customer)) {
-			this.save(customer);
+			super.save(customer);
 		}
 		else {
 			System.out.println("Not a valid person");
