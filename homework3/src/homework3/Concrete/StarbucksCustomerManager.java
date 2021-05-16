@@ -7,7 +7,6 @@ import homework3.Entities.Customer;
 public class StarbucksCustomerManager extends BaseCustomerManager {
 	public CustomerCheckService customerCheckService;
 	
-
 	public StarbucksCustomerManager(CustomerCheckService customerCheckService) {
 		super();
 		this.customerCheckService = customerCheckService;
